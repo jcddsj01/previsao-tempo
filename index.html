@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <title>Projeto - Previsão do Tempo</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="container-box">
+                <input type="text" class="input-cidade" id="input-cidade" placeholder="Digite a cidade">
+                <button type="button" class="botao-buscar" onclick="cliqueBotaoBuscar()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="container-box">
+                <h1 class="cidade" id="cidade">Tempo na Cidade</h1>
+                <p class="temperatura" id="temperatura">0° C</p>
+            </div>
+
+            <div class="container-box">
+                <img id="imagem-clima" src="https://openweathermap.org/img/wn/04n.png" alt="Imagem do clima">
+                <p class="clima" id="clima">Clima</p>
+            </div>
+
+            <div class="container-box">
+                <p class="umidade" id="umidade">Umidade: 0%</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/b5bb1aed38.js" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

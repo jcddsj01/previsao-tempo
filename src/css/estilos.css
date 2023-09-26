@@ -1,0 +1,99 @@
+:root {
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --background-color-primaria: #000;
+    --background-color-secundaria: #fff;
+    --color-primaria: #fff;
+    --color-secundaria: #000;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--background-color-secundaria);
+    color: var(--color-secundaria);
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primaria);
+    background: url("/src/img/background.webp") no-repeat center center/cover;
+}
+
+.container {
+    background-color: var(--background-color-primaria);
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container-box {
+    padding: 10px 0;
+}
+
+.container-box .input-cidade,
+.container-box .botao-buscar {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.container-box:nth-child(1) {
+    display: flex;
+    justify-content: center;
+}
+
+.container-box .input-cidade {
+    padding: 10px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 3px;
+    font-size: 1.2rem;
+}
+
+.container-box .botao-buscar {
+    padding: 10px 20px 10px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: var(--background-color-secundaria);
+}
+
+.container-box .botao-buscar:hover {
+    opacity: 0.9;
+}
+
+.container-box .cidade {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.container-box .temperatura {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.container-box:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box:nth-child(3) img {
+    margin-right: 5px;
+}
+
+.container-box .clima {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.container-box .umidade {
+    font-size: 1.2rem;
+}
