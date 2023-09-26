@@ -10,7 +10,7 @@ Tecnologias Utilizadas:
 * [Google Fonts:](https://fonts.google.com/specimen/Open+Sans) Utilizado para acessar e aplicar fontes personalizadas aos textos da página, melhorando a estilização e a legibilidade.
 * [OpenWeather:](https://openweathermap.org/) A OpenWeather é uma equipe de especialistas em TI e cientistas de dados que fornece dados meteorológicos históricos, atuais e previstos em todo o mundo por meio de APIs de alta velocidade.
 
-Implantação do Projeto no Netlify: [Explore o projeto clicando aqui.]()
+Implantação do Projeto no Netlify: [Explore o projeto clicando aqui.](https://previsao-do-tempo-app.netlify.app/)
 
 ---
 
@@ -26,4 +26,4 @@ Technologies used:
 * [Google Fonts:](https://fonts.google.com/specimen/Open+Sans) Used to access and apply custom fonts to page texts, improving stylization and readability.
 * [OpenWeather:](https://openweathermap.org/) OpenWeather is a team of IT specialists and data scientists that provides historical, current and forecast weather data worldwide via high-speed APIs.
 
-Project deployment on Netlify: [Explore the project by clicking here.]()
+Project deployment on Netlify: [Explore the project by clicking here.](https://previsao-do-tempo-app.netlify.app/)
