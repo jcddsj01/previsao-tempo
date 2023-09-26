@@ -16,7 +16,7 @@ Implantação do Projeto no Netlify: [Explore o projeto clicando aqui.]()
 
 ## Project - Weather forecast <br> Created on the basis of the YouTube channel | [Rodolfo Mori](https://www.youtube.com/watch?v=qxzqEuAOYZ4&list=WL&index=6&ab_channel=RodolfoMori)
 
-OpenWeather is a team of IT specialists and data scientists that provides historical, current and forecast weather data worldwide via high-speed APIs.
+This project accesses weather forecast information via an external OpenWeather API. It's a simple project, with a user-friendly design, organized structure, responsive and following the clean code standard.
 
 Technologies used:
 * [HTML (HyperText Markup Language):](https://www.w3schools.com/html/html_intro.asp) Used to structure and define page content, including headings, paragraphs, lists and images.
@@ -24,5 +24,6 @@ Technologies used:
 * [JavaScript:](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) Used to add interactivity to the page, allowing the user to select characters and display information dynamically. 
 * [Font Awesome:](https://fontawesome.com/) It's a library that offers a wide variety of customized icons ready to be used on websites and applications.
 * [Google Fonts:](https://fonts.google.com/specimen/Open+Sans) Used to access and apply custom fonts to page texts, improving stylization and readability.
+* [OpenWeather:](https://openweathermap.org/) OpenWeather is a team of IT specialists and data scientists that provides historical, current and forecast weather data worldwide via high-speed APIs.
 
 Project deployment on Netlify: [Explore the project by clicking here.]()
