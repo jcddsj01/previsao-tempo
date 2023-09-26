@@ -44,7 +44,6 @@ body {
 
 .container-box:nth-child(1) {
     display: flex;
-    justify-content: center;
 }
 
 .container-box .input-cidade {
@@ -53,14 +52,16 @@ body {
     border-bottom-left-radius: 20px;
     margin-right: 3px;
     font-size: 1.2rem;
+    width: 100%;
 }
 
 .container-box .botao-buscar {
-    padding: 10px 20px 10px 15px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
     background-color: var(--background-color-secundaria);
+    width: 15%;
+    text-align: center;
 }
 
 .container-box .botao-buscar:hover {
