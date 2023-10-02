@@ -38,6 +38,6 @@ Technologies used:
 * [OpenWeather:](https://openweathermap.org/) OpenWeather is a team of IT specialists and data scientists that provides historical, current and forecast weather data worldwide via high-speed APIs.
 
 Credits:
-Created on the basis of the YouTube channel | [Rodolfo Mori](https://www.youtube.com/watch?v=qxzqEuAOYZ4&list=WL&index=6&ab_channel=RodolfoMori)
+* Created on the basis of the YouTube channel | [Rodolfo Mori](https://www.youtube.com/watch?v=qxzqEuAOYZ4&list=WL&index=6&ab_channel=RodolfoMori)
 
 Project deployment on Netlify: [Explore the project by clicking here.](https://previsao-do-tempo-app.netlify.app/)
