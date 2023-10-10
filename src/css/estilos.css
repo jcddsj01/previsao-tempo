@@ -8,16 +8,11 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--background-color-secundaria);
-    color: var(--color-secundaria);
-}
-
-.main {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    height: 100vh;
     color: var(--color-primaria);
     background: url("/src/img/background.webp") no-repeat center center/cover;
 }
@@ -47,7 +42,7 @@ body {
 }
 
 .container-box .input-cidade {
-    padding: 10px 20px;
+    padding: 12px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-right: 3px;
@@ -61,7 +56,6 @@ body {
     cursor: pointer;
     background-color: var(--background-color-secundaria);
     width: 15%;
-    text-align: center;
 }
 
 .container-box .botao-buscar:hover {

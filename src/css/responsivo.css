@@ -1,0 +1,9 @@
+body {
+    align-items: start;
+    justify-content: start;
+}
+
+.container {
+    border-radius: 0;
+}
+
